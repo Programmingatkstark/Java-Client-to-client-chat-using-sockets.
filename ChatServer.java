@@ -7,7 +7,7 @@ public class ChatServer {
 
     public static void main(String... args) throws Exception {
         new ChatServer().createserver();
-    } // end of main
+    } 
     
     Vector<String> users = new Vector<String>();
     Vector<Manageuser> clients = new Vector<Manageuser>();
